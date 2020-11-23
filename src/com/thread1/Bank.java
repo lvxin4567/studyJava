@@ -18,7 +18,7 @@ public class Bank {
 	}
 
 	//sleep wait
-	public synchronized void saveAcount(int acount) {
+	public void saveAcount(int acount) {
 		int cur = getAcount();
 		try {
 			Thread.sleep(1000);
@@ -30,7 +30,7 @@ public class Bank {
 		System.out.println("¥Ê«Æ∫Û:"+this.acount);
 	}
 	
-	public synchronized void drawAcount(int acount) {
+	public void drawAcount(int acount) {
 		int cur = getAcount();
 		try {
 			Thread.sleep(1000);

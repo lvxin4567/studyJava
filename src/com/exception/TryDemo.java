@@ -42,6 +42,8 @@ public class TryDemo {
 		}catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
+		}finally {
+			System.out.println("该顾客可以入住");
 		}
 	
 		
